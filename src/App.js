@@ -99,7 +99,7 @@ export default function App(){
         {/* <h1>mateusaffonso</h1> */}
         <nav>
           <ul>
-            <Link to='/'><li>Home</li></Link>
+            <Link to='/mod3VNW-DesafioFinal/'><li>Home</li></Link>
             <Link to='/about'><li>About</li></Link>
             <Link to='/portfolio'><li>Portfólio</li></Link>
             <Link to='/onu'><li>Onu Maré</li></Link>
