@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/mod3VNW-DesafioFinal/static/js/main.7bbd74b8.js",
+    "main.js": "/mod3VNW-DesafioFinal/static/js/main.8f042598.js",
     "static/media/PreviewWebPage.png": "/mod3VNW-DesafioFinal/static/media/PreviewWebPage.f19448401695a8b2b1c2.png",
     "static/media/MateusPhoto.png": "/mod3VNW-DesafioFinal/static/media/MateusPhoto.5193c97a05a911d24f71.png",
     "static/media/ErradicacaoPobreza.png": "/mod3VNW-DesafioFinal/static/media/ErradicacaoPobreza.6830d8610a5fec6ebd0e.png",
@@ -9,9 +9,9 @@
     "static/media/JusticaSocial.png": "/mod3VNW-DesafioFinal/static/media/JusticaSocial.8b299d6bfe07dfd8d21e.png",
     "static/media/logo_mat.png": "/mod3VNW-DesafioFinal/static/media/logo_mat.cf46e984da8803b3b00a.png",
     "index.html": "/mod3VNW-DesafioFinal/index.html",
-    "main.7bbd74b8.js.map": "/mod3VNW-DesafioFinal/static/js/main.7bbd74b8.js.map"
+    "main.8f042598.js.map": "/mod3VNW-DesafioFinal/static/js/main.8f042598.js.map"
   },
   "entrypoints": [
-    "static/js/main.7bbd74b8.js"
+    "static/js/main.8f042598.js"
   ]
 }
