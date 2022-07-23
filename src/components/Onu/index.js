@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { imagesCards } from './images/import'
 import * as S from './style'
 
@@ -7,7 +7,7 @@ export default function OnuPage(){
   const [cards] = useState([
     {
       id:1,
-      name: `Erradicação da Pobreza`,
+      name: 'Erradicação da Pobreza',
       image: imagesCards.Erradicacao
     },
     {
@@ -35,7 +35,7 @@ export default function OnuPage(){
         {cards.map((item) => (
           <div className='card'>
             <img src={item.image} alt={`card de ${item.name}`}/>
-
+            
           </div>
         ))}
       </div>

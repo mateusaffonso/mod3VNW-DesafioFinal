@@ -5,6 +5,8 @@ export const OnuContainer = styled.div`
   background-color: orange;
 
   padding-left: 5rem;
+  padding-top: var(--margin--pattern);
+  
 h2 {
   font-size: 3.5rem;
   padding-top: 2rem;

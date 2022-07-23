@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HomeContainer = styled.div`
 /* border: 2px solid; */
 width: 100%;
-height: 92vh;
+height: 100vh;
 /* max-height: 95vh; */
 display: flex;
 align-items: center;

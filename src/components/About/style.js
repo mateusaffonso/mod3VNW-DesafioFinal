@@ -5,6 +5,7 @@ export const AboutContainer = styled.div`
 height: 100vh;
 background-color: orange;
 padding-left: 2rem;
+padding-top: var(--margin--pattern);
 h2 {
   padding-top: 2rem;
   font-size: 4rem;

@@ -17,7 +17,9 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
 
     --darkmode-background:black;
-    --darkmode-color:white
+    --darkmode-color:white;
+
+    --margin--pattern:5rem;
 
 
   }
@@ -41,14 +43,18 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const Header = styled.header`
+width: 100%;
 height: 5rem;
-/* border: 1px solid; */
+position: absolute;
+z-index: 1;
+border: 1px solid;
 display: flex;
 align-items: center;
 justify-content: space-between;
 
 padding-inline: 3rem;
 background-color: orange;
+
 
 @keyframes loading {
 	0% {
@@ -99,7 +105,7 @@ export default function App(){
         {/* <h1>mateusaffonso</h1> */}
         <nav>
           <ul>
-            <Link to='/mod3VNW-DesafioFinal/'><li>Home</li></Link>
+            <Link to='/mod3VNW-DesafioFinal'><li>Home</li></Link>
             <Link to='/about'><li>About</li></Link>
             <Link to='/portfolio'><li>Portfólio</li></Link>
             <Link to='/onu'><li>Onu Maré</li></Link>
@@ -110,7 +116,7 @@ export default function App(){
       
 
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/mod3VNW-DesafioFinal' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/onu' element={<OnuPage/>}/>
