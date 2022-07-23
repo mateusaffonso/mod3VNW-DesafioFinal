@@ -1,7 +1,12 @@
 {
   "files": {
-    "main.js": "/mod3VNW-DesafioFinal/static/js/main.bee47a06.js",
-    "static/media/PreviewWebPage.png": "/mod3VNW-DesafioFinal/static/media/PreviewWebPage.f19448401695a8b2b1c2.png",
+    "main.js": "/mod3VNW-DesafioFinal/static/js/main.0e6ca796.js",
+    "static/media/imgCronometro.png": "/mod3VNW-DesafioFinal/static/media/imgCronometro.c1186802f32b1c300bdb.png",
+    "static/media/desafioVNW.png": "/mod3VNW-DesafioFinal/static/media/desafioVNW.473bb38d9a1db0959bd5.png",
+    "static/media/dogAPI.png": "/mod3VNW-DesafioFinal/static/media/dogAPI.f4468abd21f6823ca35e.png",
+    "static/media/recipesImage.png": "/mod3VNW-DesafioFinal/static/media/recipesImage.5696f307628e8c8765b0.png",
+    "static/media/todoflixImg.png": "/mod3VNW-DesafioFinal/static/media/todoflixImg.82724fdadd76b1f1c9c8.png",
+    "static/media/imgNLW.png": "/mod3VNW-DesafioFinal/static/media/imgNLW.97a7f6ce27a521034cad.png",
     "static/media/MateusPhoto.png": "/mod3VNW-DesafioFinal/static/media/MateusPhoto.5193c97a05a911d24f71.png",
     "static/media/ErradicacaoPobreza.png": "/mod3VNW-DesafioFinal/static/media/ErradicacaoPobreza.6830d8610a5fec6ebd0e.png",
     "static/media/AcessoOportunidades.png": "/mod3VNW-DesafioFinal/static/media/AcessoOportunidades.958502015719c9c27ca3.png",
@@ -9,9 +14,9 @@
     "static/media/JusticaSocial.png": "/mod3VNW-DesafioFinal/static/media/JusticaSocial.8b299d6bfe07dfd8d21e.png",
     "static/media/logo_mat.png": "/mod3VNW-DesafioFinal/static/media/logo_mat.cf46e984da8803b3b00a.png",
     "index.html": "/mod3VNW-DesafioFinal/index.html",
-    "main.bee47a06.js.map": "/mod3VNW-DesafioFinal/static/js/main.bee47a06.js.map"
+    "main.0e6ca796.js.map": "/mod3VNW-DesafioFinal/static/js/main.0e6ca796.js.map"
   },
   "entrypoints": [
-    "static/js/main.bee47a06.js"
+    "static/js/main.0e6ca796.js"
   ]
 }
