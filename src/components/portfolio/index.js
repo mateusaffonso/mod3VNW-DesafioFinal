@@ -22,7 +22,7 @@ export default function Portfolio(){
       name: "Desafio RocketSeat - NLW  Return Trilha Origin",
       image: imagesWebSites.imgNLW,
       repository:"https://github.com/mateusaffonso/NLWRETURNORIGIN",
-      link:"https://mateusaffonso.github.io/mod3VNW-pairprogramming/"
+      link:"https://mateusaffonso.github.io/NLWRETURNORIGIN/"
     },
     {
       name: "Cronômetro",
