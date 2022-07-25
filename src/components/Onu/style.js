@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const OnuContainer = styled.div`
-  height: 100vh;
+  /* height: 100vh; */
   background-color: orange;
 
   padding-left: 5rem;
   padding-top: var(--margin--pattern);
+  padding-bottom: 10rem;
   
 h2 {
   font-size: 3.5rem;

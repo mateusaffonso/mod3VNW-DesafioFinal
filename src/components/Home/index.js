@@ -25,7 +25,6 @@ export default function Home(){
           <a href=''><img src={instagram}/></a>
           <a href='https://www.linkedin.com/in/mateusaffonso/' target='_blanck'><img src={linkedin}/></a>
           <a href=''><img src={whatsapp}/></a>
-          {/* <a href=''><img /></a> */}
         </div>
       </div>
 

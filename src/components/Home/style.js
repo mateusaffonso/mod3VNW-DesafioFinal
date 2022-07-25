@@ -35,7 +35,7 @@ background-color: orange;
     /* border: 1px solid; */
     width: 20rem;
     display: flex;
-    gap: 3rem;
+    justify-content: space-evenly;
 
     img {
       /* border: 1px solid; */
@@ -51,7 +51,7 @@ export const Photo = styled.figure`
 width: fit-content;
 
 img{
-  width: 30rem;
+  width: 25rem;
   border-radius: 30%;
 }
 `

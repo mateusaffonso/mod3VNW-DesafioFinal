@@ -7,6 +7,8 @@ width: 100%;
 background-color: orange;
 padding-left: 2rem;
 padding-top: var(--margin--pattern);
+margin-bottom: 2rem ;
+
 
 h2 {
   padding-top: 2rem;
@@ -15,11 +17,11 @@ h2 {
 
   .projectsContainer {
     /* border:1px solid; */
-    padding-top: 2rem;
+    margin-top: 2rem;
     width: 100%;
-    height: 60rem;
+    /* height: auto; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 3rem;
     flex-wrap: wrap;
   }
@@ -35,6 +37,8 @@ h2 {
       width: 100%;
       height: 100%;
       position: absolute;
+      border-radius: 20%;
+
     }
 
     .handleHover {
