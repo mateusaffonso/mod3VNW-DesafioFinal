@@ -41,6 +41,9 @@ background-color: orange;
       /* border: 1px solid; */
       width: 3rem;
     }
+
+    svg {
+    }
    }
 }
 

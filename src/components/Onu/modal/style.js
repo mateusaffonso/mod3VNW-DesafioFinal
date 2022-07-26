@@ -14,12 +14,14 @@ display:flex;
 justify-content: center;
 align-items: center;
 
+
   .container {
     background-color: #ffff;
     color: #ffff;
     width: 60%;
     height: 60%;
     border-radius: 20px;
+    color: #000;
 
     .close {
       background-color: transparent;

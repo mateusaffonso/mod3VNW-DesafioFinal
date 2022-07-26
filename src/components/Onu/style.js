@@ -33,7 +33,7 @@ p {
 }
 
 .card {
-  
+  cursor: pointer;
   img {
     width: 20rem;
   }
