@@ -37,6 +37,7 @@ padding-top: var(--margin--pattern);
     img {
       width: 32rem;
       height:38rem;
+      border-radius: 30%;
     }
   }
   
@@ -48,6 +49,7 @@ padding-top: var(--margin--pattern);
 
     h2 {
       font-size: 5rem;
+      color: var(--color-normal);
     }
     
     p{

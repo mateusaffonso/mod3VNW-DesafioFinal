@@ -11,6 +11,7 @@ export const OnuContainer = styled.div`
 h2 {
   font-size: 3.5rem;
   padding-top: 2rem;
+  color: var(--color-normal);
 }
 
 p {

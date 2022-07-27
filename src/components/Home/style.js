@@ -10,7 +10,8 @@ justify-content: space-evenly;
 text-align: center;
 flex-wrap: wrap;
 gap: 2rem;
-background-color: orange;
+/* background-color: orange; */
+color: var(--color-normal);
 
 
 
@@ -28,6 +29,7 @@ background-color: orange;
 
    p{
     font-size: 2.2rem;
+    color: black;
    }
 
    .iconContainer{

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Port = styled.div`
-border: 2px solid;
+/* border: 2px solid; */
 width: 100%;
 background-color: orange;
 padding-left: 2rem;
@@ -17,6 +17,7 @@ margin-bottom: 2rem ;
 h2 {
   padding-top: 2rem;
   font-size: 5rem;
+  color: var(--color-normal);
 
   @media (max-width: 768px) {
   padding-left: 2rem;
@@ -35,7 +36,7 @@ h2 {
   }
 
   .project{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 36rem;
     height: 26rem;
     position: relative;
@@ -45,7 +46,7 @@ h2 {
       width: 100%;
       height: 100%;
       position: absolute;
-      border-radius: 20%;
+      border-radius: 2%;
 
     }
 
@@ -57,7 +58,7 @@ h2 {
       z-index: 10;
       display: flex;
       flex-direction: column;
-      background-color: yellow;
+      background-color: var(--color-normal);
       gap: 5rem;
       justify-content: center;
       align-items: center;
