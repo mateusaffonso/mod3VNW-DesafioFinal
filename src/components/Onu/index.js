@@ -4,7 +4,7 @@ import * as S from './style.js'
 import Modal from './modal/modal.js'
 
 
-export default function OnuPage(id="modal"){
+export default function OnuPage(){
 
   const [cards] = useState([
     {
@@ -43,23 +43,21 @@ export default function OnuPage(id="modal"){
         {cards.map((item) => (
           <div id={item.id} className='card' onClick={() => setIsModalVisible(true)}>
             <img src={item.image} alt={`card de ${item.name}`}/>
-            
+            {isModalVisible ? (cards.map((item) => ( 
+            <Modal id={item.id} onClose={(e) => setIsModalVisible(e.target.id === item.id ? setIsModalVisible(false) : setIsModalVisible(false))}>
+              <h2>{item.name}</h2>
+              <p>LoremIpsu </p>
+            </Modal>))) : null}
           </div>
           
         ))}
       </div>
-      {isModalVisible ? (cards.map((item) => ( 
-      // <S.Modal id="modal" onClick={(e) => setIsModalVisible(e.target.id === id ? setIsModalVisible(false) : setIsModalVisible(false) )}>
-      //   <div className='container'>
-      //     <button className='close' onClick={() => setIsModalVisible(false)}/>
-      //    <div className="content"></div>
-      //   </div>
-      //   <h2>Modal do App</h2>
-      // </S.Modal>)))
+      {/* {isModalVisible ? (cards.map((item) => ( 
       <Modal id="modal" onClose={(e) => setIsModalVisible(e.target.id === id ? setIsModalVisible(false) : setIsModalVisible(false))}>
         <h2>{item.name}</h2>
         <p>LoremIpsu </p>
-      </Modal>))) : null}
+      </Modal>))) : null} */}
+      {/* {isModalVisible && <Modal id="modal" onClose={(e) => setIsModalVisible(e.target.id === id ? setIsModalVisible(false) : setIsModalVisible(false))} />} */}
     </S.OnuContainer>
   )
 }

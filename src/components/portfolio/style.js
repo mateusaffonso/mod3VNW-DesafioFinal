@@ -9,10 +9,18 @@ padding-left: 2rem;
 padding-top: var(--margin--pattern);
 margin-bottom: 2rem ;
 
+@media (max-width: 768px) {
+  padding-left: 0;
+}
+
 
 h2 {
   padding-top: 2rem;
   font-size: 5rem;
+
+  @media (max-width: 768px) {
+  padding-left: 2rem;
+}
 }
 
   .projectsContainer {
@@ -21,7 +29,7 @@ h2 {
     width: 100%;
     /* height: auto; */
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 3rem;
     flex-wrap: wrap;
   }

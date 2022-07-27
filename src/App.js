@@ -5,43 +5,13 @@ import Home from "./components/Home/index"
 import About from "./components/About/index"
 import Portfolio from "./components/portfolio/index"
 import OnuPage from './components/Onu/index'
-import logo_mat from './components/Home/images/logo_mat.png'
+import logo_mat from './components/Home/images/logo.png'
+import GlobalStyle from './styles/Global'
 
-const GlobalStyle = createGlobalStyle`
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-  :root {
-    font-size: 62.5%;
-
-    --darkmode-background:black;
-    --darkmode-color:white;
-
-    --margin--pattern:5rem;
-
-
-  }
-
-  li {
-    
-    
-  }
-
-  body {
-    /* background-color: var(--darkmode-background);
-    color: var(--darkmode-color); */
-    /* -webkit-text-stroke-width: 0.03rem; */
-    /* -webkit-text-stroke-color: #ff71f4; */
-    background-color: orange;
-  }
-}
-`
 
 const Header = styled.header`
 width: 100%;
-height: 5rem;
+/* height: 5rem; */
 position: absolute;
 z-index: 1;
 border: 1px solid;
@@ -99,10 +69,9 @@ nav ul {
 }
 
 img {
-  padding-top: 1rem;
   /* border: 1px solid; */
-  width: 10rem;
-  height: 10rem;
+  width: 5rem;
+  padding: 0.5rem;
   animation: loading 9s linear infinite;
   
 }

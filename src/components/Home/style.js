@@ -4,7 +4,6 @@ export const HomeContainer = styled.div`
 /* border: 2px solid; */
 width: 100%;
 height: 100vh;
-/* max-height: 95vh; */
 display: flex;
 align-items: center;
 justify-content: space-evenly;
@@ -55,6 +54,6 @@ width: fit-content;
 
 img{
   width: 25rem;
-  border-radius: 30%;
+  /* border-radius: 30%; */
 }
 `
