@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 
 export const AboutContainer = styled.div`
-/* height: 100vh; */
 background-color: orange;
 padding-left: 2rem;
 padding-top: var(--margin--pattern);
@@ -20,7 +19,6 @@ padding-top: var(--margin--pattern);
   
 }
 
-  /* border: solid 1px; */
   width: 100%;
   height: 50rem;
   display: flex;
@@ -29,7 +27,6 @@ padding-top: var(--margin--pattern);
   figure {
     width: 100%;
     height: 100%;
-    /* border: 1px solid; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +45,7 @@ padding-top: var(--margin--pattern);
     
 
     h2 {
-      font-size: 5rem;
+      font-size: 4.5rem;
       color: var(--color-normal);
     }
     
@@ -56,11 +53,9 @@ padding-top: var(--margin--pattern);
       padding-inline: 2rem;
       font-size: 2rem;
       margin-block: 3rem;
+      line-height: 3.5rem;
     }
 
-    hr{
-      color: black;
-    }
 
     ul {
 

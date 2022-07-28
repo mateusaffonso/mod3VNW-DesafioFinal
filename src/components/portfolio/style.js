@@ -16,7 +16,7 @@ margin-bottom: 2rem ;
 
 h2 {
   padding-top: 2rem;
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: var(--color-normal);
 
   @media (max-width: 768px) {
@@ -25,10 +25,8 @@ h2 {
 }
 
   .projectsContainer {
-    /* border:1px solid; */
-    margin-top: 2rem;
     width: 100%;
-    /* height: auto; */
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -36,7 +34,6 @@ h2 {
   }
 
   .project{
-    /* border: 1px solid; */
     width: 36rem;
     height: 26rem;
     position: relative;
@@ -75,7 +72,7 @@ h2 {
           width: 8rem;
           height: 3rem;
           background-color: white;
-          border-radius: 25%;
+          border-radius: 10%;
           font-size: 1.4rem;
 
           display: flex;

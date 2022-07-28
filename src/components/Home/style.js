@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-/* border: 2px solid; */
 width: 100%;
 height: 100vh;
 display: flex;
@@ -10,13 +9,11 @@ justify-content: space-evenly;
 text-align: center;
 flex-wrap: wrap;
 gap: 2rem;
-/* background-color: orange; */
 color: var(--color-normal);
 
 
 
 .Identification{
-  /* border: 1px solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,29 +30,27 @@ color: var(--color-normal);
    }
 
    .iconContainer{
-    /* border: 1px solid; */
     width: 20rem;
     display: flex;
     justify-content: space-evenly;
 
     img {
-      /* border: 1px solid; */
       width: 3rem;
     }
 
-    svg {
-    }
    }
 }
 
 `
 
 export const Photo = styled.figure`
-/* border: 2px solid; */
 width: fit-content;
+
+@media (max-width: 700px) {
+  padding-top: 5rem;
+}
 
 img{
   width: 25rem;
-  /* border-radius: 30%; */
 }
 `

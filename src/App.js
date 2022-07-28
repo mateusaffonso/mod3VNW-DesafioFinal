@@ -11,22 +11,19 @@ import GlobalStyle from './styles/Global'
 
 const Header = styled.header`
 width: 100%;
-/* height: 5rem; */
 position: absolute;
 z-index: 1;
-border: 1px solid;
 display: flex;
 align-items: center;
 justify-content: space-between;
 
 padding-inline: 3rem;
-background-color: orange;
+background-color: #fb9910;
 
 
 
 
 nav ul {
-  /* border: 1px solid; */
   width: 40rem;
   height: 4rem;
   display: flex;
@@ -45,14 +42,10 @@ nav ul {
     padding: .5rem;
     text-decoration: none;
     color: black;
-    /* border-radius: 20%; */
     
     :hover {
-          color: brown;
-          /* border: 1px solid black; */
-
-          /* border: 1px solid brown; */
-        }
+      color: var(--color-normal);
+    }
   }
 
   
