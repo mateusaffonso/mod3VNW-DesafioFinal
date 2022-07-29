@@ -16,6 +16,7 @@ margin-bottom: 2rem ;
 
 h2 {
   padding-top: 2rem;
+  padding-bottom: 3rem;
   font-size: 4.5rem;
   color: var(--color-normal);
 

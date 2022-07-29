@@ -31,14 +31,14 @@ export default function OnuPage(){
 
   const [isModalVisible, setIsModalVisible] = useState(false)
 
-  const cardsFilter = (id) => {
-    const cardFiltred = cards.filter(id == 1).map((item) => (item.name))
-  }
+  // const cardsFilter = (id) => {
+  //   const cardFiltred = cards.filter(id == 1).map((item) => (item.name))
+  // }
 
   return(
     <S.OnuContainer>
-      <h2>Os Objetivos de Desenvolvimento Sustentável na Maré</h2>
-      <p>Os objetivos de Desenvolvimento Sustentável são um apelo global à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, em todos os lugares, possam desfrutar de paz e da prosperidade. estes são os objetivos para os quais as Nações Unidas estão contribuindo a fim de que possamos atingir a Agenda 2030 no Brasil.</p>
+      <h2>The Sustainable Development Goals in Maré</h2>
+      <p>The Sustainable Development Goals are a global call to action to end poverty, protect the environment and climate, and ensure that people everywhere can enjoy peace and prosperity. these are the goals to which the United Nations is contributing so that we can achieve the 2030 Agenda in Brazil.</p>
       <div className='cardsContainer'>
         {cards.map((item) => (
           <div id={item.id} className='card' onClick={() => setIsModalVisible(true)}>
@@ -52,12 +52,6 @@ export default function OnuPage(){
           
         ))}
       </div>
-      {/* {isModalVisible ? (cards.map((item) => ( 
-      <Modal id="modal" onClose={(e) => setIsModalVisible(e.target.id === id ? setIsModalVisible(false) : setIsModalVisible(false))}>
-        <h2>{item.name}</h2>
-        <p>LoremIpsu </p>
-      </Modal>))) : null} */}
-      {/* {isModalVisible && <Modal id="modal" onClose={(e) => setIsModalVisible(e.target.id === id ? setIsModalVisible(false) : setIsModalVisible(false))} />} */}
     </S.OnuContainer>
   )
 }

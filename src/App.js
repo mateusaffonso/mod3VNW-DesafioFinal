@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
-import styled, { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
 import Home from "./components/Home/index"
 import About from "./components/About/index"
 import Portfolio from "./components/portfolio/index"
@@ -18,7 +18,7 @@ align-items: center;
 justify-content: space-between;
 
 padding-inline: 3rem;
-background-color: #fb9910;
+background-color: orange;
 
 
 
@@ -71,6 +71,7 @@ img {
 
 #btn-mobile{
     display: none;
+    background-color: transparent;
 
   }
 
@@ -119,6 +120,7 @@ img {
       background-color: none;
       cursor: pointer;
       gap: .5rem;
+      font-size:1.7rem;
     }
 
     #hamburger {
@@ -164,15 +166,12 @@ export default function App(){
 
   }
 
-  // useEffect(() => {
-  //   btnMobile.addEventListener('touchstart', toggle)
-  // }, []) 
 
   return(
     <Router>
       <GlobalStyle />
       <Header>
-        <img src={logo_mat}/>
+        <img src={logo_mat} alt='logo de Mateus Augusto'/>
         <nav id='nav'>
           <button id="btn-mobile" onClick={toggleMenu}>Menu
             <span id='hamburger'></span>

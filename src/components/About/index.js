@@ -17,11 +17,11 @@ export default function About() {
 
         <h2>About Me</h2>
 
-        <p>Um Jovem negro, morador do Complexo da Maré
-        (RJ), que ama pessoas e tecnologia. Tenho como
-        propósito e sonho poder diminuir a desigualdade
-        unindo minha paixão por pessoas com minha
-        paixão por tecnologia.</p>
+        <p>A young black man, resident of Complexo da Maré
+         (RJ), who loves people and technology. I have like
+         purpose and dream to be able to reduce inequality
+         joining my passion for people with my
+         passion for technology.</p>
 
 
         <h2>Soft Skills</h2>
