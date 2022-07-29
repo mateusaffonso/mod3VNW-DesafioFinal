@@ -15,14 +15,14 @@
 
 ### How to use
  
- - git clone https://github.com/mateusaffonso/VainaWebDesafioTecnico.git
+ - git clone https://github.com/mateusaffonso/mod3VNW-DesafioFinal.git
  - npm install
  - code .
  - npm start
  
- ## Online Page: https://github.com/mateusaffonso/mod3VNW-DesafioFinal
+ ## Online Page: https://mateusaffonso.github.io/mod3VNW-DesafioFinal/
  
- ## Design: https://xd.adobe.com/view/e5fab098-2373-4004-bc59-09c936e61be3-b0a9/specs/
+ ## Design Próprio.
 
 <a href ='https://www.linkedin.com/in/mateusaffonso/'> <img src ='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white' /> </a>
 
