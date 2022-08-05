@@ -1,7 +1,7 @@
 # Vai na Web Page - Desafio Final do Módulo 3 do curso "Vai na Web - Web Developer Front-end"
 
 > Status : finished
-
+> Responsive Page
 
 ## Web page with information about the "Mateus Augusto - Portfólio"
 
