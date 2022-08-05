@@ -15,6 +15,7 @@
 
 
 ### How to use
+Obs: Os arquivos estão na Branch Main
  
  - git clone https://github.com/mateusaffonso/mod3VNW-DesafioFinal.git
  - npm install
