@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/mod3VNW-DesafioFinal/static/js/main.d1966e16.js",
+    "main.js": "/mod3VNW-DesafioFinal/static/js/main.aa56e945.js",
     "static/media/imgCronometro.png": "/mod3VNW-DesafioFinal/static/media/imgCronometro.c1186802f32b1c300bdb.png",
     "static/media/desafioVNW.png": "/mod3VNW-DesafioFinal/static/media/desafioVNW.473bb38d9a1db0959bd5.png",
     "static/media/dogAPI.png": "/mod3VNW-DesafioFinal/static/media/dogAPI.f4468abd21f6823ca35e.png",
@@ -14,9 +14,9 @@
     "static/media/diminuicaoViolencia.png": "/mod3VNW-DesafioFinal/static/media/diminuicaoViolencia.dee1c3e65547b22dd08d.png",
     "static/media/JusticaSocial.png": "/mod3VNW-DesafioFinal/static/media/JusticaSocial.8b299d6bfe07dfd8d21e.png",
     "index.html": "/mod3VNW-DesafioFinal/index.html",
-    "main.d1966e16.js.map": "/mod3VNW-DesafioFinal/static/js/main.d1966e16.js.map"
+    "main.aa56e945.js.map": "/mod3VNW-DesafioFinal/static/js/main.aa56e945.js.map"
   },
   "entrypoints": [
-    "static/js/main.d1966e16.js"
+    "static/js/main.aa56e945.js"
   ]
 }
